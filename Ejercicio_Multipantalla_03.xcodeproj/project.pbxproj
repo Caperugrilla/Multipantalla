@@ -15,6 +15,10 @@
 		FBC06D3D1DCC7C2D00B6DEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC06D3B1DCC7C2D00B6DEDA /* LaunchScreen.storyboard */; };
 		FBC06D481DCC7C2D00B6DEDA /* Ejercicio_Multipantalla_03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC06D471DCC7C2D00B6DEDA /* Ejercicio_Multipantalla_03Tests.m */; };
 		FBC06D531DCC7C2D00B6DEDA /* Ejercicio_Multipantalla_03UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC06D521DCC7C2D00B6DEDA /* Ejercicio_Multipantalla_03UITests.m */; };
+		FBC06D6A1DCC80C200B6DEDA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC06D691DCC80C200B6DEDA /* SecondViewController.m */; };
+		FBC06D6D1DCC821000B6DEDA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC06D6C1DCC821000B6DEDA /* ThirdViewController.m */; };
+		FBC06D701DCC822300B6DEDA /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC06D6F1DCC822300B6DEDA /* FourViewController.m */; };
+		FBC06D731DCC824800B6DEDA /* AyudaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC06D721DCC824800B6DEDA /* AyudaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		FBC06D4E1DCC7C2D00B6DEDA /* Ejercicio_Multipantalla_03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejercicio_Multipantalla_03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC06D521DCC7C2D00B6DEDA /* Ejercicio_Multipantalla_03UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ejercicio_Multipantalla_03UITests.m; sourceTree = "<group>"; };
 		FBC06D541DCC7C2D00B6DEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC06D681DCC80C200B6DEDA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FBC06D691DCC80C200B6DEDA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FBC06D6B1DCC821000B6DEDA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FBC06D6C1DCC821000B6DEDA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FBC06D6E1DCC822300B6DEDA /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		FBC06D6F1DCC822300B6DEDA /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		FBC06D711DCC824800B6DEDA /* AyudaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyudaViewController.h; sourceTree = "<group>"; };
+		FBC06D721DCC824800B6DEDA /* AyudaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyudaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				FBC06D3B1DCC7C2D00B6DEDA /* LaunchScreen.storyboard */,
 				FBC06D3E1DCC7C2D00B6DEDA /* Info.plist */,
 				FBC06D2D1DCC7C2D00B6DEDA /* Supporting Files */,
+				FBC06D681DCC80C200B6DEDA /* SecondViewController.h */,
+				FBC06D691DCC80C200B6DEDA /* SecondViewController.m */,
+				FBC06D6B1DCC821000B6DEDA /* ThirdViewController.h */,
+				FBC06D6C1DCC821000B6DEDA /* ThirdViewController.m */,
+				FBC06D6E1DCC822300B6DEDA /* FourViewController.h */,
+				FBC06D6F1DCC822300B6DEDA /* FourViewController.m */,
+				FBC06D711DCC824800B6DEDA /* AyudaViewController.h */,
+				FBC06D721DCC824800B6DEDA /* AyudaViewController.m */,
 			);
 			path = Ejercicio_Multipantalla_03;
 			sourceTree = "<group>";
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC06D701DCC822300B6DEDA /* FourViewController.m in Sources */,
+				FBC06D6A1DCC80C200B6DEDA /* SecondViewController.m in Sources */,
+				FBC06D6D1DCC821000B6DEDA /* ThirdViewController.m in Sources */,
 				FBC06D351DCC7C2D00B6DEDA /* ViewController.m in Sources */,
 				FBC06D321DCC7C2D00B6DEDA /* AppDelegate.m in Sources */,
+				FBC06D731DCC824800B6DEDA /* AyudaViewController.m in Sources */,
 				FBC06D2F1DCC7C2D00B6DEDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

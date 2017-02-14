@@ -1,19 +1,18 @@
 //
-//  ViewController.m
+//  ThirdViewController.m
 //  Ejercicio_Multipantalla_03
 //
 //  Created by Alumno on 04/11/16.
 //  Copyright © 2016 Alumno. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ThirdViewController.h"
 #import "AyudaViewController.h"
-
-@interface ViewController ()
+@interface ThirdViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ThirdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,24 +24,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)volver:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+- (IBAction)irAyuda:(id)sender {
+    [self performSegueWithIdentifier:@"irAyuda" sender:@"Vista 3"];
+}
+- (IBAction)irVistaCuatro:(id)sender {
+    [self performSegueWithIdentifier:@"vistaCuatro" sender:nil];
+}
 
-- (IBAction)ayuda:(id)sender {
-    [self performSegueWithIdentifier:@"irAyuda" sender:@"Vista 1"];
-}
-- (IBAction)vista2:(id)sender {
-    [self performSegueWithIdentifier:@"vistaDos" sender:nil];
-}
--(IBAction)salir:(UIStoryboardSegue*)sender{
-    
-}
 #pragma mark - Navigation
 //Cada vez que se lance un segue a esa pantalla este método se llama.
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
-   // UIViewController* viewController = [segue destinationViewController];
+    // UIViewController* viewController = [segue destinationViewController];
     if([[segue identifier] isEqualToString:@"irAyuda"]){
-    AyudaViewController* viewController =(AyudaViewController*) [segue destinationViewController];
-    [viewController loadData:sender];
+        AyudaViewController* viewController =(AyudaViewController*) [segue destinationViewController];
+        [viewController loadData:sender];
     }
     
 }
